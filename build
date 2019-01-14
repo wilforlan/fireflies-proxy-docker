@@ -1,2 +1,2 @@
 docker build -t nginx-docker .
-docker run -p 80:80 -d nginx-docker
+docker run -p 80:3001 --restart always -d nginx-docker
